@@ -4,9 +4,9 @@
   <div class="hero">
     <div class="b">
       <div class="bText">
-        <h1>Welcome to visit</h1> 
+        <h1>Welcome to</h1> 
         <p class="description">Apache Doris</p> 
-        <p class="sum">A fast MPP database for all modern analytics on big data. A fast MPP Database for all modern analytics on big data.</p> 
+        <p class="sum">A fast MPP database for all modern analytics on big data</p> 
         <div class="bannerHref">
           <a href="/docs/get-starting/get-starting.html" class="button1">Quick Start</a> 
           <a href="https://github.com/apache/incubator-doris" target="_blank" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
@@ -32,10 +32,10 @@
 <div class="newsBox">
   <ul class="wow fadeInUp">
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/blogs/ReleaseNote/release-note-1.0.0.html">
         <div class="newsboxTitle">
-          <p class="t">Efficient column storage engine and modern MPP architecture, combined with intelligent</p>
-          <p class="s">Efficient column storage engine and modernMPP architecture, combined with intelligent</p>
+          <p class="t">[Release Note] Apache Doris(Incubating) 1.0.0 Release</p>
+          <!-- <p class="s">[Release Note] Apache Doris(Incubating) 1.0.0 Release</p> -->
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -46,10 +46,10 @@
       </a>
     </li>
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/blogs/PracticalCases/flink-cdc-to-doris.html">
         <div class="newsboxTitle">
-          <p class="t">Efficient column storage engine and modern MPP architecture, combined with intelligent</p>
-          <p class="s">Efficient column storage engine and modernMPP architecture, combined with intelligent</p>
+          <p class="t">Use Flink CDC to realize real-time MySQL data into Apache Doris</p>
+          <!-- <p class="s">Use Flink CDC to realize real-time MySQL data into Apache Doris</p> -->
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -60,10 +60,10 @@
       </a>
     </li>
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/blogs/ReleaseNote/release-note-0.15.0.html">
         <div class="newsboxTitle">
-          <p class="t">Efficient column storage engine and modern MPP architecture, combined with intelligent</p>
-          <p class="s">Efficient column storage engine and modernMPP architecture, combined with intelligent</p>
+          <p class="t">[Release Note] Apache Doris(Incubating) 0.15.0 Release</p>
+          <!-- <p class="s">5. [Release Note] Apache Doris(Incubating) 0.15.0 Release</p> -->
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -76,13 +76,13 @@
   </ul>
   <div class="newsdownData wow fadeInUp">
     <div class="newsleft">
-      <p class="t wow fadeInUp">Taking data as the core and algorithm as the technique, build a new digital marketing infrastructure</p>
-      <p class="s wow fadeInUp">Big data + artificial intelligence, combined with core technologies such as <br>intelligent algorithms, to create a user-centered global <br>intelligent marketing product matrix</p>
+      <p class="t wow fadeInUp">A modern, high-performance and real-time analysical database based on MPP</p>
+      <p class="s wow fadeInUp">It is well known for its high-performance and easy-to-use. It can return query results under massive data within only sub-seconds.It can support not only high concurrent point query scenarios, but also complex analysis scenarios with high throughput.</p>
       <div class="fataImg">
         <img src="/blog-images/data.png" alt="Data" />
         <div class="dim"><img src="/blog-images/data-1.png" alt="Data" /></div>
       </div>
-      <div class="al wow fadeInUp"><a href="/Blog/CompanyNews/" class="a">Understand more</a></div>
+      <div class="al wow fadeInUp"><a href="/docs/get-starting/get-starting.html" class="a">Understand more</a></div>
     </div>
   </div>
 </div>
@@ -90,10 +90,9 @@
 <div class="apacheDoris">
   <div class="appleft">
     <div class="apptitle">
-      <p class="t wow fadeInUp">Apache Doris</p>
-      <p class="s wow fadeInUp">Apache Doris is a modern MPP analytical database product. It can provide sub-second queries and efficient real-time data analysis. With it's distributed architecture, up to 10PB level datasets will be well supported and easy to operate.</p>
-      <p class="s wow fadeInUp">Apache Doris can meet various data analysis demands, including history data reports, real-time data analysis, interactive data analysis, and exploratory data analysis. Make your data analysis easier!</p>
-      <div class="al wow fadeInUp"><a href="/docs/theme-reco/">Understand more</a></div>
+      <p class="t wow fadeInUp">Data import </p>
+      <p class="s wow fadeInUp">Apache Doris provides rich data synchronization methods, supports fast loading of data from localhost, Hadoop, Flink, Spark, Kafka and other  systems.</p>
+      <div class="al wow fadeInUp"><a href="/zh/docs/data-operate/import/load-manual.html">Understand more</a></div>
     </div>
     <div class="appimg wow fadeInUp">
       <img src="/blog-images/doris1.png" alt="doris">
@@ -104,9 +103,8 @@
   </div>
   <div class="appright">
     <div class="apptitle">
-      <p class="t wow fadeInUp">Apache Doris</p>
-      <p class="s wow fadeInUp">Apache Doris is a modern MPP analytical database product. It can provide sub-second queries and efficient real-time data analysis. With it's distributed architecture, up to 10PB level datasets will be well supported and easy to operate.</p>
-      <p class="s wow fadeInUp">Apache Doris can meet various data analysis demands, including history data reports, real-time data analysis, interactive data analysis, and exploratory data analysis. Make your data analysis easier!</p>
+      <p class="t wow fadeInUp">Data</p>
+      <p class="s wow fadeInUp">Can also directly access data in MySQL, PostgreSQL, Oracle, S3, Hive, Iceberg, Elasticsearch and other systems without data replication. At the same time, the data stored in Doris can also be read by Spark and Flink, and can be output to the upstream data application for display and analysis.</p>
       <div class="al wow fadeInUp"><a href="/docs/theme-reco/">Understand more</a></div>
     </div>
     <div class="appimg wow fadeInUp">

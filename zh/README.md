@@ -4,9 +4,9 @@
   <div class="hero">
     <div class="b">
       <div class="bText">
-        <h1>欢迎访问</h1> 
+        <h1>欢迎使用</h1> 
         <p class="description">Apache Doris</p> 
-        <p class="sum">用于所有现代大数据分析的快速 MPP 数据库。 用于大数据的所有现代分析的快速 MPP 数据库。</p> 
+        <p class="sum">支持对海量大数据进行快速分析的MPP数据库。</p> 
         <div class="bannerHref">
           <a href="/zh/docs/get-starting/get-starting.html" class="button1">快速开始</a> 
           <a href="https://github.com/apache/incubator-doris" target="_blank" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
@@ -32,10 +32,9 @@
 <div class="newsBox">
   <ul class="wow fadeInUp">
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/zh/blogs/ReleaseNote/release-note-1.0.0.html">
         <div class="newsboxTitle">
-          <p class="t">高效的列存储引擎和现代MPP架构，结合智能</p>
-          <p class="s">高效的列存储引擎和现代MPP架构，结合智能</p>
+          <p class="t">[Doris 发版通告] Apache Doris(Incubating) 1.0.0 Release</p>
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -46,10 +45,9 @@
       </a>
     </li>
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/zh/blogs/PracticalCases/flink-cdc-to-doris.html">
         <div class="newsboxTitle">
-          <p class="t">高效的列存储引擎和现代MPP架构，结合智能</p>
-          <p class="s">高效的列存储引擎和现代MPP架构，结合智能</p>
+          <p class="t">使用 Flink CDC 实现 MySQL 数据实时入 Apache Doris </p>
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -60,10 +58,9 @@
       </a>
     </li>
     <li>
-      <a href="/Blog/CompanyNews/">
+      <a href="/zh/blogs/ReleaseNote/release-note-0.15.0.html">
         <div class="newsboxTitle">
-          <p class="t">高效的列存储引擎和现代MPP架构，结合智能</p>
-          <p class="s">高效的列存储引擎和现代MPP架构，结合智能</p>
+          <p class="t">[Doris 发版通告] Apache Doris(Incubating) 0.15.0 Release</p>
           <i class="doris doris-jiantou_xiangyouliangci"></i>
         </div>
         <div class="newsboxImg">
@@ -76,13 +73,13 @@
   </ul>
   <div class="newsdownData wow fadeInUp">
     <div class="newsleft">
-      <p class="t wow fadeInUp">以数据为核心，以算法为技术，构建数字营销新基础设施</p>
-      <p class="s wow fadeInUp">大数据+人工智能，结合智能算法等核心技术，打造以用户为中心的全球智能营销产品矩阵</p>
+      <p class="t wow fadeInUp">基于MPP的现代化、高性能、实时的分析型数据库</p>
+      <p class="s wow fadeInUp">Apache doris 以极速易用的特点被人们所熟知，仅需亚秒级响应时间即可返回海量数据下的查询结果，不仅可以支持高并发的点查询场景，也能支持高吞吐的复杂分析场景。</p>
       <div class="fataImg">
         <img src="/blog-images/data.png" alt="Data" />
         <div class="dim"><img src="/blog-images/data-1.png" alt="Data" /></div>
       </div>
-      <div class="al wow fadeInUp"><a href="/Blog/CompanyNews/" class="a">了解更多</a></div>
+      <div class="al wow fadeInUp"><a href="/zh/docs/get-starting/get-starting.html" class="a">了解更多</a></div>
     </div>
   </div>
 </div>
@@ -90,10 +87,9 @@
 <div class="apacheDoris">
   <div class="appleft">
     <div class="apptitle">
-      <p class="t wow fadeInUp">Apache Doris</p>
-      <p class="s wow fadeInUp">Apache Doris 是现代 MPP 分析数据库产品。 它可以提供亚秒级查询和高效的实时数据分析。 凭借其分布式架构，将支持高达 10PB 级别的数据集，并且易于操作。</p>
-      <p class="s wow fadeInUp">Apache Doris可以满足各种数据分析需求，包括历史数据报告、实时数据分析、交互式数据分析、探索性数据分析。 让您的数据分析更轻松！</p>
-      <div class="al wow fadeInUp"><a href="/docs/theme-reco/">了解更多</a></div>
+      <p class="t wow fadeInUp">数据导入</p>
+      <p class="s wow fadeInUp">提供丰富的数据同步方式，支持快速加载来自本地、Hadoop、Flink、Spark、Kafka、SeaTunnel 等业务系统及数据处理组件中的数据。</p>
+      <div class="al wow fadeInUp"><a href="/zh/docs/data-operate/import/load-manual.html">了解更多</a></div>
     </div>
     <div class="appimg wow fadeInUp">
       <img src="/blog-images/doris1.png" alt="doris">
@@ -104,9 +100,8 @@
   </div>
   <div class="appright">
     <div class="apptitle">
-      <p class="t wow fadeInUp">Apache Doris</p>
-      <p class="s wow fadeInUp">Apache Doris 是现代 MPP 分析数据库产品。 它可以提供亚秒级查询和高效的实时数据分析。 凭借其分布式架构，将支持高达 10PB 级别的数据集，并且易于操作。</p>
-      <p class="s wow fadeInUp">Apache Doris可以满足各种数据分析需求，包括历史数据报告、实时数据分析、交互式数据分析、探索性数据分析。 让您的数据分析更轻松！</p>
+      <p class="t wow fadeInUp">数据存储</p>
+      <p class="s wow fadeInUp">可以直接访问MySQL、PostgreSQL、Oracle、S3、Hive、Iceberg、Elasticsearch等系统中的数据而无需数据复制。同时存储在Doris中的数据也可以被 Spark、Flink 读取，并且可以输出给上游数据应用进行展示分析。</p>
       <div class="al wow fadeInUp"><a href="/docs/theme-reco/">了解更多</a></div>
     </div>
     <div class="appimg wow fadeInUp">

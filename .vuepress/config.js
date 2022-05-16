@@ -54,9 +54,9 @@ module.exports = {
             "text": "Blog",
             "icon": "doris doris-xiala",
             "items": [
-              { text: 'Practical cases', link: '/categories/PracticalCases/' },
-              { text: 'Technical analysis', link: '/categories/TechnicalAnalysis/' },
-              { text: 'Version notice', link: '/categories/VersionNotice/' }
+              { text: 'Practical Cases', link: '/categories/PracticalCases/' },
+              { text: 'Doris Weekly', link: '/categories/DorisWeekly/' },
+              { text: 'Release Note', link: '/categories/ReleaseNote/' }
             ]
           },
           {
@@ -120,9 +120,9 @@ module.exports = {
             "text": "博客",
             "icon": "doris doris-xiala",
             "items": [
-              { text: '公司新闻', link: '/zh/categories/公司新闻/' },
-              { text: '行业新闻', link: '/zh/categories/行业新闻/' },
-              { text: '其他', link: '/zh/categories/其他/' }
+              { text: '实践案例', link: '/zh/categories/PracticalCases/' },
+              { text: 'Doris周报', link: '/zh/categories/DorisWeekly/' },
+              { text: '版本通告', link: '/zh/categories/ReleaseNote/' }
             ]
           },
           {
