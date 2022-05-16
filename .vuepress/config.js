@@ -18,20 +18,20 @@ module.exports = {
   "locales": {
     '/': {
       'lang': 'en-US',// html lang属性
-      'title': 'DORIS',
-      'description': 'DORIS'
+      'title': 'Apache Doris',
+      'description': 'Apache Doris'
     },
     '/zh/': {
       'lang': 'zh-CN',
-      'title': 'DORIS',
-      'description': 'DORIS'
+      'title': 'Apache Doris',
+      'description': 'Apache Doris'
     }
   },
-  shouldPrefetch: () => false,
+  // shouldPrefetch: () => false,
   // 头部文件设置
   "head": [
     // CSS样式上传
-    ["link", { "rel": "icon", "href": "/favicon.ico" }],
+    ["link", { "rel": "icon", "href": "/blog-images/logo.png" }],
     ["link", { "rel": "stylesheet", "href": "//at.alicdn.com/t/font_3319292_bdqvc63l075.css" }],
     ["link", { "rel": "stylesheet", "href": "/css/animate.min.css" }],
     // meta 描述
@@ -52,66 +52,65 @@ module.exports = {
         "nav": [
           {
             "text": "Blog",
-            "link": "/",
             "icon": "doris doris-xiala",
             "items": [
-              { text: 'Company News', link: '/categories/Company%20News/' },
-              { text: 'Industry News', link: '/categories/Industry%20News/' },
-              { text: 'Other', link: '/categories/Other/' }
+              { text: 'Practical cases', link: '/categories/PracticalCases/' },
+              { text: 'Technical analysis', link: '/categories/TechnicalAnalysis/' },
+              { text: 'Version notice', link: '/categories/VersionNotice/' }
             ]
           },
           {
             "text": "Document",
             "link": "/docs/"
           },
-          {
-            "text": "Event",
-            "link": "/timeline/",
-          },
+          // {
+          //   "text": "Event",
+          //   "link": "/timeline/",
+          // },
           {
             "text": "ASF",
-            "link": "/",
             "icon": "doris doris-xiala",
             "items": [
-              { text: 'Foundation', link: '/ASF/' },
-              { text: 'License', link: '/ASF/License' },
-              { text: 'Events', link: '/ASF/Events' },
-              { text: 'Sponsorship', link: '/ASF/Sponsorship' },
-              { text: 'Thanks', link: '/ASF/Thanks' }
+              { text: 'Foundation', link: 'https://www.apache.org/' },
+              { text: 'Security', link: 'https://www.apache.org/security/' },
+              { text: 'License', link: 'https://www.apache.org/licenses/' },
+              { text: 'Events', link: 'https://www.apache.org/events/current-event' },
+              { text: 'Sponsorship', link: 'https://www.apache.org/foundation/sponsorship.html' },
+              { text: 'Thanks', link: 'https://www.apache.org/foundation/thanks.html' },
             ]
           },
           {
             "text": "Downloads",
-            "link": "/Downloads/"
+            "link": "/docs/downloads/downloads"
           }
         ],
 
         // 指定页面侧边栏
         "sidebar": {
           "/docs/": convertSidebar(require('./sidebar/en.js'), '/docs/'),
-          "/ASF/": [
-            {
-              'title': 'ASF',    // 标题信息
-              'collapsable': false,   // 是否可折叠
-              'children': [           // 该块内容对应的所有链接
-                ["", "Foundation"],         // README.md
-                ['License', 'License'],
-                ["Events", "Events"],
-                ["Sponsorship", "Sponsorship"],
-                ["Thanks", "Thanks"]
-              ]
-            }
-          ],
-          "/Downloads/": [
-            {
-              'title': 'Downloads',    // 标题信息
-              'collapsable': false,   // 是否可折叠
-              'children': [           // 该块内容对应的所有链接
-                ["", "Doris"],         // README.md   ['地址','标题']
-                ['DorisCore', 'Doris Core']
-              ]
-            }
-          ]
+          // "/ASF/": [
+          //   {
+          //     'title': 'ASF',    // 标题信息
+          //     'collapsable': false,   // 是否可折叠
+          //     'children': [           // 该块内容对应的所有链接
+          //       ["", "Foundation"],         // README.md
+          //       ['License', 'License'],
+          //       ["Events", "Events"],
+          //       ["Sponsorship", "Sponsorship"],
+          //       ["Thanks", "Thanks"]
+          //     ]
+          //   }
+          // ],
+          // "/Downloads/": [
+          //   {
+          //     'title': 'Downloads',    // 标题信息
+          //     'collapsable': false,   // 是否可折叠
+          //     'children': [           // 该块内容对应的所有链接
+          //       ["", "Doris"],         // README.md   ['地址','标题']
+          //       ['DorisCore', 'Doris Core']
+          //     ]
+          //   }
+          // ]
         }
       },
       "/zh/": {
@@ -119,7 +118,6 @@ module.exports = {
         "nav": [
           {
             "text": "博客",
-            "link": "/",
             "icon": "doris doris-xiala",
             "items": [
               { text: '公司新闻', link: '/zh/categories/公司新闻/' },
@@ -131,54 +129,55 @@ module.exports = {
             "text": "文档",
             "link": "/zh/docs/"
           },
-          {
-            "text": "时间线",
-            "link": "/zh/timeline/",
-          },
+          // {
+          //   "text": "时间线",
+          //   "link": "/zh/timeline/",
+          // },
           {
             "text": "ASF",
             "link": "/zh/",
             "icon": "doris doris-xiala",
             "items": [
-              { text: '基础', link: '/zh/ASF/' },
-              { text: '执照', link: '/zh/ASF/License' },
-              { text: '活动', link: '/zh/ASF/Events' },
-              { text: '赞助', link: '/zh/ASF/Sponsorship' },
-              { text: '谢谢', link: '/zh/ASF/Thanks' }
+              { text: '基础', link: 'https://www.apache.org/' },
+              { text: '安全', link: 'https://www.apache.org/security/' },
+              { text: '版权', link: 'https://www.apache.org/licenses/' },
+              { text: '活动', link: 'https://www.apache.org/events/current-event' },
+              { text: '捐赠', link: 'https://www.apache.org/foundation/sponsorship.html' },
+              { text: '鸣谢', link: 'https://www.apache.org/foundation/thanks.html' },
             ]
           },
           {
             "text": "下载",
-            "link": "/zh/Downloads/"
+            "link": "/zh/docs/downloads/downloads"
           }
         ],
 
         // 指定页面侧边栏
         "sidebar": {
           "/zh/docs/": convertSidebar(require('./sidebar/zh-CN.js'), '/zh/docs/'),
-          "/zh/ASF/": [
-            {
-              'title': 'ASF',    // 标题信息
-              'collapsable': false,   // 是否可折叠
-              'children': [           // 该块内容对应的所有链接
-                ["", "基础"],         // README.md
-                ['License', '执照'],
-                ["Events", "活动"],
-                ["Sponsorship", "赞助"],
-                ["Thanks", "谢谢"]
-              ]
-            }
-          ],
-          "/zh/Downloads/": [
-            {
-              'title': '下载',    // 标题信息
-              'collapsable': false,   // 是否可折叠
-              'children': [           // 该块内容对应的所有链接
-                ["", "Doris"],         // README.md   ['地址','标题']
-                ['DorisCore', 'Doris Core']
-              ]
-            }
-          ]
+          // "/zh/ASF/": [
+          //   {
+          //     'title': 'ASF',    // 标题信息
+          //     'collapsable': false,   // 是否可折叠
+          //     'children': [           // 该块内容对应的所有链接
+          //       ["", "基础"],         // README.md
+          //       ['License', '执照'],
+          //       ["Events", "活动"],
+          //       ["Sponsorship", "赞助"],
+          //       ["Thanks", "谢谢"]
+          //     ]
+          //   }
+          // ],
+          // "/zh/Downloads/": [
+          //   {
+          //     'title': '下载',    // 标题信息
+          //     'collapsable': false,   // 是否可折叠
+          //     'children': [           // 该块内容对应的所有链接
+          //       ["", "Doris"],         // README.md   ['地址','标题']
+          //       ['DorisCore', 'Doris Core']
+          //     ]
+          //   }
+          // ]
         },
       }
     },

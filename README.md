@@ -8,8 +8,8 @@
         <p class="description">Apache Doris</p> 
         <p class="sum">A fast MPP database for all modern analytics on big data. A fast MPP Database for all modern analytics on big data.</p> 
         <div class="bannerHref">
-          <a href="/docs/theme-reco/" class="button1">Quick Start</a> 
-          <a href="/" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
+          <a href="/docs/get-starting/get-starting.html" class="button1">Quick Start</a> 
+          <a href="https://github.com/apache/incubator-doris" target="_blank" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
         </div>
       </div> 
       <div class="bImg">
@@ -283,36 +283,36 @@
     <div class="footerleft">
       <div class="f wow fadeInUp" data-wow-delay="200ms">
         <p class="t">Resource</p>
-        <a href="/Downloads/" class="a">Downloads</a>
-        <a href="/docs/theme-reco/" class="a">Document</a>
+        <a href="/docs/downloads/downloads.html" class="a">Downloads</a>
+        <a href="/docs/" class="a">Document</a>
         <a href="/Blog/CompanyNews/" class="a">Blog</a>
         <a href="/timeline/" class="a">Event</a>
-        <a href="/massage/" class="a">Community</a>
       </div>
       <div class="f wow fadeInUp" data-wow-delay="400ms">
         <p class="t">ASF</p>
-        <a href="/ASF/" class="a">Foundation</a>
-        <a href="/ASF/License" class="a">License</a>
-        <a href="/ASF/Events" class="a">Events</a>
-        <a href="/ASF/Sponsorship" class="a">Sponsorship</a>
-        <a href="/ASF/Thanks" class="a">Thanks</a>
+        <a href="https://www.apache.org/" target="_blank" class="a">Foundation</a>
+        <a href="https://www.apache.org/security/" target="_blank" class="a">Security</a>
+        <a href="https://www.apache.org/licenses/" target="_blank" class="a">License</a>
+        <a href="https://www.apache.org/events/current-event" target="_blank" class="a">Events</a>
+        <a href="https://www.apache.org/foundation/sponsorship.html" target="_blank" class="a">Sponsorship</a>
+        <a href="https://www.apache.org/foundation/thanks.html" target="_blank" class="a">Thanks</a>
       </div>
       <div class="f wow fadeInUp" data-wow-delay="600ms">
         <p class="t">Language</p>
-        <a href="#" class="a">English</a>
-        <a href="#" class="a">简体中文</a>
+        <a href="/" class="a">English</a>
+        <a href="/zh/" class="a">简体中文</a>
       </div>
     </div>
     <div class="footerright wow fadeInUp" data-wow-delay="800ms">
       <div class="fx">
         <p class="t">Share</p>
         <ul>
-          <li><a href="#"><img src="/blog-images/fx1.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx2.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx3.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx4.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx5.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx6.png" alt="doris" /></a></li>
+          <li><a href="mailto:dev@doris.apache.org" target="_blank"><img src="/blog-images/fx1.png" alt="Email" /></a></li>
+          <li><a href="https://github.com/apache/incubator-doris" target="_blank"><img src="/blog-images/fx2.png" alt="Github" /></a></li>
+          <li><a href="https://twitter.com/doris_apache" target="_blank"><img src="/blog-images/fx3.png" alt="Twitter" /></a></li>
+          <li><a href="https://join.slack.com/t/apachedoriscommunity/shared_invite/zt-18u6vjopj-Th15vTVfmCzVfhhL5rz26A" target="_blank"><img src="/blog-images/fx4.png" alt="Slack" /></a></li>
+          <li><a href="https://mp.weixin.qq.com/mp/homepage?__biz=Mzg5MDEyODc1OA==&hid=1&sn=eb2d31c20d5c4fc638b897c764e11195&scene=18" target="_blank"><img src="/blog-images/fx5.png" alt="WeChart" /></a></li>
+          <li><a href="https://space.bilibili.com/362350065" target="_blank"><img src="/blog-images/fx6.png" alt="bilibili" /></a></li>
         </ul>
       </div>
     </div>

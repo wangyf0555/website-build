@@ -8,8 +8,8 @@
         <p class="description">Apache Doris</p> 
         <p class="sum">用于所有现代大数据分析的快速 MPP 数据库。 用于大数据的所有现代分析的快速 MPP 数据库。</p> 
         <div class="bannerHref">
-          <a href="/docs/theme-reco/" class="button1">快速开始</a> 
-          <a href="/" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
+          <a href="/zh/docs/get-starting/get-starting.html" class="button1">快速开始</a> 
+          <a href="https://github.com/apache/incubator-doris" target="_blank" class="button2"><i class="doris doris-github-fill"></i>GitHub</a>
         </div>
       </div> 
       <div class="bImg">
@@ -283,34 +283,34 @@
     <div class="footerleft">
       <div class="f wow fadeInUp" data-wow-delay="200ms">
         <p class="t">资源</p>
-        <a href="/Downloads/" class="a">下载</a>
-        <a href="/docs/theme-reco/" class="a">文档</a>
-        <a href="/massage/" class="a">留言</a>
+        <a href="/zh/docs/downloads/downloads.html" class="a">下载</a>
+        <a href="/zh/docs/" class="a">文档</a>
       </div>
       <div class="f wow fadeInUp" data-wow-delay="400ms">
         <p class="t">ASF</p>
-        <a href="/ASF/" class="a">基础</a>
-        <a href="/ASF/License" class="a">执照</a>
-        <a href="/ASF/Events" class="a">活动</a>
-        <a href="/ASF/Sponsorship" class="a">赞助</a>
-        <a href="/ASF/Thanks" class="a">谢谢</a>
+        <a href="https://www.apache.org/" target="_blank" class="a">基础</a>
+        <a href="https://www.apache.org/security/" target="_blank" class="a">安全</a>
+        <a href="https://www.apache.org/licenses/" target="_blank" class="a">版权</a>
+        <a href="https://www.apache.org/events/current-event" target="_blank" class="a">活动</a>
+        <a href="https://www.apache.org/foundation/sponsorship.html" target="_blank" class="a">捐赠</a>
+        <a href="https://www.apache.org/foundation/thanks.html" target="_blank" class="a">鸣谢</a>
       </div>
       <div class="f wow fadeInUp" data-wow-delay="600ms">
         <p class="t">Language</p>
-        <a href="#" class="a">English</a>
-        <a href="#" class="a">简体中文</a>
+        <a href="/" class="a">English</a>
+        <a href="/zh/" class="a">简体中文</a>
       </div>
     </div>
     <div class="footerright wow fadeInUp" data-wow-delay="800ms">
       <div class="fx">
         <p class="t">分享</p>
         <ul>
-          <li><a href="#"><img src="/blog-images/fx1.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx2.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx3.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx4.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx5.png" alt="doris" /></a></li>
-          <li><a href="#"><img src="/blog-images/fx6.png" alt="doris" /></a></li>
+          <li><a href="mailto:dev@doris.apache.org" target="_blank"><img src="/blog-images/fx1.png" alt="Email" /></a></li>
+          <li><a href="https://github.com/apache/incubator-doris" target="_blank"><img src="/blog-images/fx2.png" alt="Github" /></a></li>
+          <li><a href="https://twitter.com/doris_apache" target="_blank"><img src="/blog-images/fx3.png" alt="Twitter" /></a></li>
+          <li><a href="https://join.slack.com/t/apachedoriscommunity/shared_invite/zt-18u6vjopj-Th15vTVfmCzVfhhL5rz26A" target="_blank"><img src="/blog-images/fx4.png" alt="Slack" /></a></li>
+          <li><a href="https://mp.weixin.qq.com/mp/homepage?__biz=Mzg5MDEyODc1OA==&hid=1&sn=eb2d31c20d5c4fc638b897c764e11195&scene=18" target="_blank"><img src="/blog-images/fx5.png" alt="WeChart" /></a></li>
+          <li><a href="https://space.bilibili.com/362350065" target="_blank"><img src="/blog-images/fx6.png" alt="bilibili" /></a></li>
         </ul>
       </div>
     </div>
