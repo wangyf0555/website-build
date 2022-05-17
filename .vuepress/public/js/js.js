@@ -2,6 +2,8 @@ $(function(){
     var _pushState = window.history.pushState;
     window.history.pushState = function() {
         setTimeout(function(){
+            window.location.reload();
+            
             $('#app').parents('body').removeClass('youde');
             $('.blogliebiao').parents('.no-sidebar').parents('body').addClass('youde');
             $('.blogxiangqing').parents('.no-sidebar').parents('body').addClass('youde');

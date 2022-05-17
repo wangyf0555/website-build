@@ -1227,7 +1227,7 @@ div .home-blog .hero .description{
     margin: 0;
     width: 258px;
     background: #fff;
-    padding: 19px 14.5px;
+    padding: 16px 14.5px;
 }
 .navbar > a{
     position: absolute;
@@ -1523,11 +1523,11 @@ main.page .page-title div > i::before {
 #app .abstract-wrapper.list{
     padding-bottom: 100px;    
 }
-#app.category .theme-container{
+#app .theme-container{
     max-width: none;
     padding: 5.625rem 0 0;
 }
-#app.category .category-wrapper{
+#app .category-wrapper{
     max-width: 288px;
     position: fixed;
     left: 0;
@@ -1541,33 +1541,33 @@ main.page .page-title div > i::before {
     padding: 4.5rem 0 1.5rem;
     width: 100%;
 }
-#app.category .abstract-wrapper{
+#app .abstract-wrapper{
     margin-left: 288px;
     width: auto;
     padding: 60px 15px 100px;
 }
-#app.category .abstract-wrapper > div{
+#app .abstract-wrapper > div{
     max-width: 860px;
     margin: 0 auto 20px;
     background: #f5f5f5;
     box-shadow: none;
     padding: 25px 30px;
 }
-#app.category .category-wrapper li{
+#app .category-wrapper li{
     width: 100%;
     margin: 0;
     box-shadow: none;
     border-radius: 0;
     background: none;
 }
-#app.category .category-wrapper li a{
+#app .category-wrapper li a{
     padding: 12px 15px;
     line-height: 1;
     font-size: 13px;
     position: relative;
     background: rgba(62, 175, 124, 0);
 }
-#app.category .category-wrapper li a::after{
+#app .category-wrapper li a::after{
     content:'';
     position: absolute;
     right: 0;
@@ -1576,22 +1576,22 @@ main.page .page-title div > i::before {
     background: #3eaf7c;
     opacity: 0;
 }
-#app.category .category-wrapper li a:hover span:first-child{
+#app .category-wrapper li a:hover span:first-child{
     color: #3eaf7c;
 }
-#app.category .category-wrapper li.active a{
+#app .category-wrapper li.active a{
     background: rgba(62, 175, 124, .1);
 }
-#app.category .category-wrapper li.active a::after{
+#app .category-wrapper li.active a::after{
     opacity: 1;
 }
-#app.category .category-wrapper li.active a span:first-child{
+#app .category-wrapper li.active a span:first-child{
     color: #3eaf7c;
 }
-#app.category .abstract-wrapper > div:hover{
+#app .abstract-wrapper > div:hover{
     background: #2ca37d;
 }
-#app.category .abstract-wrapper > div .title{
+#app .abstract-wrapper > div .title{
     font-size: 18px;
     line-height: 1;
     border-bottom: 1px solid #e3e3e3;
@@ -1599,29 +1599,29 @@ main.page .page-title div > i::before {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
-#app.category .abstract-wrapper > div .title a{
+#app .abstract-wrapper > div .title a{
     color: #333;
 }
-#app.category .abstract-wrapper > div:hover a{
+#app .abstract-wrapper > div:hover a{
     color: #fff;
 }
-#app.category .abstract-wrapper > div div:last-child{
+#app .abstract-wrapper > div div:last-child{
     pointer-events: none;
 }
-#app.category .abstract-wrapper > div div:last-child i{
+#app .abstract-wrapper > div div:last-child i{
     line-height: 1;
     color: #b9b9b9;
 }
-#app.category .abstract-wrapper > div div.pagation-list{
+#app .abstract-wrapper > div div.pagation-list{
     pointer-events: auto;
 }
-#app.category .abstract-wrapper > div:hover div:last-child i{
+#app .abstract-wrapper > div:hover div:last-child i{
     color: #fff;
 }
-#app.category .abstract-wrapper > div .title::after{
+#app .abstract-wrapper > div .title::after{
     display: none;
 }
-#app.category .abstract-wrapper > div:last-child{
+#app .abstract-wrapper > div:last-child{
     background: none;
     padding: 0;
 }
@@ -1671,9 +1671,9 @@ main.page .page-title div > i.tags{
 .home main.page .page-title{
     display:none;    
 }
-.home .home-blog {
-    padding: 5.625rem 0 0 0;
-}
+// .home .home-blog {
+//     padding: 5.625rem 0 0 0;
+// }
 .navbar .links .search-box input{
     width: 100%;
     background: #fff;
@@ -1681,14 +1681,66 @@ main.page .page-title div > i.tags{
     border: 1px solid var(--border-color);
     height: 40px;
 }
+
 .no-sidebar .navbar .search-box{
-    display: none;    
+    display: none;
 }
 .category .no-sidebar .navbar .search-box{
     display: block;    
 }
-
-
+.categories-wrapper.no-sidebar .navbar .search-box{
+    display: block;
+}
+.navbar > .links nav .nav-item:last-child ul li{
+    line-height: 0;    
+}
+.navbar > .links nav .nav-item:last-child ul li:nth-child(1) a,
+.navbar > .links nav .nav-item:last-child ul li:nth-child(2) a{
+    font-size: 0px;
+}
+.navbar > .links nav .nav-item:last-child ul li:nth-child(1) a i,
+.navbar > .links nav .nav-item:last-child ul li:nth-child(2) a i{
+    display: none;   
+}
+.navbar > .links nav .nav-item:last-child ul li:nth-child(1) a::after{
+    content: 'English';
+    display: block;
+    font-size: 14px;
+    position: static;
+    border: 0;
+    width: auto;
+    height: auto;
+}
+.navbar > .links nav .nav-item:last-child ul li:nth-child(2) a::after{
+    content: '简体中文';
+    display: block;
+    font-size: 14px;
+    position: static;
+    border: 0;
+    width: auto;
+    height: auto;
+}
+.category-item a[href="/zh/categories/DorisWeekly/"] span{
+    font-size: 0px;
+}
+.category-item a[href="/zh/categories/DorisWeekly/"] span::after{
+    content:'Doris周报';  
+    font-size: 13px;  
+}
+.category-item a[href="/zh/categories/PracticalCases/"] span{
+    font-size: 0px;
+}
+.category-item a[href="/zh/categories/PracticalCases/"] span::after{
+    content:'实践案例';  
+    font-size: 13px;  
+}
+.category-item a[href="/zh/categories/ReleaseNote/"] span{
+    font-size: 0px;
+}
+.category-item a[href="/zh/categories/ReleaseNote/"] span::after{
+    content:'版本通告';  
+    font-size: 13px;  
+}
 
 
 
@@ -2326,7 +2378,7 @@ main.page .page-title div > i.tags{
         width: 100%;
         margin: 0 0 5px 0;
     }
-    #app.category .abstract-wrapper{
+    #app .abstract-wrapper{
         margin-left: 0;
         padding: 0px 0px 40px;
     }
@@ -2334,7 +2386,7 @@ main.page .page-title div > i.tags{
         font-size: 15px;
     }
     main.page {
-        padding-top: 80px;
+        padding-top: 0px;
     }
     .page-title .title{
         font-size: 20px;
@@ -2520,14 +2572,17 @@ main.page .page-title div > i.tags{
         line-height: 1.7;
         color: #999 !important;
     }
-    .home .home-blog{
-        padding: 4rem 0 0 0;  
-    }
+    // .home .home-blog{
+    //     padding: 4rem 0 0 0;  
+    // }
     #app .timeline-wrapper .timeline-content{
         padding-top: 1px;
     }
     .search-box{
         display: none !important;    
+    }
+    #app .theme-container {
+        padding: 4rem 0 0;
     }
 }
 @keyframes dorisLA1{

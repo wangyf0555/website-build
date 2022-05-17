@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-  },
   "dependencies": {
     "vuepress": "1.8.2",
-    "vuepress-theme-haobom": "2.0.1"
+    "vuepress-theme-haobom": "^2.0.2"
   },
   "scripts": {
     "dev": "vuepress dev .  --host \"localhost\"",
