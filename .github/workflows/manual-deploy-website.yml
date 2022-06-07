@@ -48,7 +48,7 @@ jobs:
         increase-memory-limit
         export NODE_OPTIONS="--max-old-space-size=6144" && npm install && npm run build
         
-        ls dist/
+        ls
         export DORIS_COMMIT=`git rev-parse HEAD`
 
     - name: Deploy Master
