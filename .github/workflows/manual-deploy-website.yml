@@ -23,7 +23,7 @@ jobs:
     - name: Build
       run: |
         git clone https://github.com/wangyf0555/incubator-doris.git incubator-doris
-        git checkout -b wyf-docs
+        git checkout -b wyf-docs remotes/origin/wyf-docs
         export BRANCH=${{ github.event.inputs.branch }}
         cp -R blogs/zh-CN/ incubator-doris/docs/zh-CN/blogs/
         cp -R blogs/en/ incubator-doris/docs/en/blogs/
