@@ -41,14 +41,13 @@ jobs:
         sed -i 's/en\///g' .vuepress/theme/index.js 
         sed -i "s/BUILDING_BRANCH\.length > 0/BUILDING_BRANCH\.length > 0 \&\& BUILDING_BRANCH !== 'master'/g" .vuepress/config.js
         sed -i 's/en\///g' en/README.md
-        ls
         mv en/* ./
         mv .vuepress/sidebar/en/* .vuepress/sidebar/
+        ls
         npm install -g increase-memory-limit
         increase-memory-limit
         export NODE_OPTIONS="--max-old-space-size=6144" && npm install && npm run build
         
-        ls
         export DORIS_COMMIT=`git rev-parse HEAD`
 
     - name: Deploy Master
@@ -71,7 +70,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: asf-site
-        publish_dir: ./incubator-doris/docs/.vuepress/dist
+        publish_dir: ./incubator-doris/docs/dist
         destination_dir: ${{ github.event.inputs.branch }}
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
