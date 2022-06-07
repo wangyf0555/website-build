@@ -38,7 +38,7 @@ jobs:
         cd docs/
         find ./ -name "*.md" -exec sed -i -e 's/!\[\(.*\)\][(]\(.*\)[)]/<img \:src=\"$withBase\('\''\2'\''\)\" alt=\"\1\">/g' {} \;
         sed -i 's/en\///g' .vuepress/config.js 
-        sed -i 's/en\///g' .vuepress/theme/config.js 
+        sed -i 's/en\///g' .vuepress/theme/index.js 
         sed -i "s/BUILDING_BRANCH\.length > 0/BUILDING_BRANCH\.length > 0 \&\& BUILDING_BRANCH !== 'master'/g" .vuepress/config.js
         sed -i 's/en\///g' en/README.md
         mv en/* ./
